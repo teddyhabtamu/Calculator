@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(https://img.freepik.com/free-vector/binary-code-algorithm-digital-data-background_1017-30366.jpg?w=1380&t=st=1683980450~exp=1683981050~hmac=6f74c1c4a5085cbe7116b647450e877209406abecc97847425847830d280849c); */
+  background-color: rgb(14, 13, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator{
+  background-color: rgba(23, 32, 38, 0.938);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculator form input{
+  border: 0;
+  outline: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 10px rgba(0, 0, 0, 0.5), 5px 5px 15px rgba(47, 45, 96, 0.1);
+  background: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+}
+.calculator form input:hover{
+  background-color: black;
+  color: yellowgreen;
+}
+.calculator form input:active{
+  transform: scale(0.9);
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+
+}
+
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  background: #ffffff;
+  color: black;
+  padding: 5px;
+}
+form input.equal-sign{
+  width: 220px;
+  background-color: rgb(0, 111, 128);
+}
+
+form input.yellow{
+  background-color: rgb(255, 225, 0);
+  color: black;
+}
